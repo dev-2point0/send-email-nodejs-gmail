@@ -30,7 +30,7 @@ const emailController = (req, res) => {
     transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
             console.log(error);
-            res.send('Email sent error!')
+            res.send('Error in sending email!')
         } else {
             res.send('Email sent!')
             console.log('Email sent: ' + info.response);
