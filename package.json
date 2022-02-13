@@ -1,0 +1,15 @@
+{
+  "name": "email-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "GMAIL_ID=*** GMAIL_PASSWORD=*** FROM_EMAIL=*** TO_EMAIL=*** node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.0"
+  }
+}
