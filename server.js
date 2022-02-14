@@ -5,5 +5,5 @@ const port = 3000;
 app.get('/email', emailController);
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`App listening at http://localhost:${port}`)
 })

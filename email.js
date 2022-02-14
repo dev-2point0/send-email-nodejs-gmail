@@ -14,11 +14,11 @@ const emailController = (req, res) => {
         from: FROM_EMAIL,
         to: TO_EMAIL,
         subject: 'Email Subject | Sending Email using Node.js',
-        text: 'Email bBody | That is the body content of email to be sent to receiver.',
+        text: 'Email Body | That is the body content of email to be sent to receiver.',
         attachments: [
             {
                 filename: 'notes.txt',
-                content: 'hello world!'
+                content: 'Hello! This is the content of text file attached in the email.'
             },
             {
                 filename: 'PDF.pdf',
