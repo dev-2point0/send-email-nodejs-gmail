@@ -5,4 +5,5 @@ This is a sample project that run on NodeJS and can be used to send email with g
 Clone this project  
 npm install  
 npm run start
-Open http://localhost:3000/email Once you visit this URL, it will send email.  
+Open http://localhost:3000
+Once you open above URL, it will send email.  
